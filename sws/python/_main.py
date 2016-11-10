@@ -1,4 +1,4 @@
-#!C:\Python27\python
+#!C:\Python34\python
 import cgi
 import cgitb; cgitb.enable()
 import func
@@ -7,16 +7,16 @@ print("Content-Type: text/html\n")
 
 func.menu()
 
-print("""
+print("""		</ul>
 			</nav>
     		<div class = "logotipo">
     			<img src="../sws/1.jpg" id="imagen" alt="">
 	      		<div id="spa">
 	      			<h2>Busca tu Inmueble al mejor Precio</h2>
      				<ul>
-	   					<li><a>Seleccione</a></li>
-	   					<li><a>Clase</a></li>
-	   					<li><a>Departamento-Zona</a></li>
+	   					<li><a href="#">Seleccione</a></li>
+	   					<li><a href="#">Clase</a></li>
+	   					<li><a href="#">Departamento-Zona</a></li>
 	    			</ul>
 	    			<h4>Casas de Playa | Casas de Campo | Alquiler Turistas</h4>
 	    		</div>
@@ -35,6 +35,7 @@ print("""
 
 desc = ["Alquiler de Casa Vacia Urb. El Golf", "Alquiler de Casa Vacia Los Cantaros", "Venta de Casa Urb. La Perla", "Alquiler de Casa Las Castellanas ", "Remate - Venta de Terreno Chancay", "Venta de Terreno Urb. Santa Maria", "Alquiler de Casa Vacia Urb. El Golf ", "Alquiler de Casa Vacia Los Cantaros", "Venta de Casa Urb. La Perla", "Alquiler de Casa Las Castellanas ", "Remate - Venta de Terreno Chancay", "Venta de Terreno Urb. Santa Maria"];
 imagen = ["../sws/foto1.jpg"];
+
 print("<ul>")
 for i in range(0,len(desc)):
 	print ("<li>"+"""<img src="../sws/foto1.jpg" alt="">"""+str(desc[i])+"</li>")
