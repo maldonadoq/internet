@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+   margin: 0;
+  padding: 0;
+ 
+}
+body {
+  background-color: #e6e6e6;
+}
+
+.main{
+    width: 95%;
+    max-width: 1600px;
+    margin: 10px auto;
+}
+
+header nav{
+    background: #1B1818;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font: bold 100% Sans-Serif;
+}
+
+header nav ul li a:hover{
+    background: #000000;
+}
+
+header nav ul li ul{
+    display: none;
+}
+
+.main #barra{
+    width: 27%;
+    background: #241459;
+    float: left;
+    margin-bottom: 2%;
+}
+
+.main #barra p{
+    padding: 8px 22px;
+    background: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    font: bold 100% Sans-Serif;
+}
+
+.main #barra ul{
+    list-style: none;
+}
+
+.main #barra ul li a{
+    padding: 4.5% 22px;
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font: bold 100% Sans-Serif;
+}
+
+.main #barra ul li a:hover{
+    background: #000000;
+}
+
+.main .articles{
+    margin-left: 5%;
+    float: right;
+    width: 68%;
+}
+
+footer{
+  position: relative;
+  background: #000;
+  color: #fff;
+  clear: both;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+form{
+  width: 70%;
+  margin: auto;
+  background: rgba(0,0,0,0.6);
+  padding: 10px 20px; 
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin-bottom: 2%;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+}
+
+#but{
+  background: #32384A;
+  color: #FFF;
+  padding: 20px;
+}
+#but:hover{
+  cursor: pointer;
+}
